@@ -16,10 +16,8 @@ public class Dev {
 	public Dev() {
 	}
 
-	public Dev(String nome, Set<Conteudo> conteudosIncritos, Set<Conteudo> conteudosFinalizados) {
+	public Dev(String nome) {
 		this.nome = nome;
-		this.conteudosIncritos = conteudosIncritos;
-		this.conteudosFinalizados = conteudosFinalizados;
 	}
 
 	public void inscreverBootcamp(Bootcamp bootcamp) {

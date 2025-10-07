@@ -19,11 +19,9 @@ public class Bootcamp {
 	
 	public Bootcamp() {
 	}
-	public Bootcamp(String nome, String descricao, Set<Dev> devsInscritos, Set<Conteudo> conteudos) {
+	public Bootcamp(String nome, String descricao) {
 		this.nome = nome;
 		this.descricao = descricao;
-		this.devsInscritos = devsInscritos;
-		this.conteudos = conteudos;
 	}
 	public String getNome() {
 		return nome;
